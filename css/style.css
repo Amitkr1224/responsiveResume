@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    color: crimson;
+    z-index: 1;
+}
+/* ---------------------> Header Section <----------------------------------- */
+#heading{
+    /* display: flex; */
+    background-color: rgb(31, 30, 30);
+    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+    opacity: .7;
+    z-index: -1;
+    height: 50px;
+}
+.navbar-left h2{
+    color: white;
+}
+#heading .navbar-right ul{
+    list-style: none;
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* left: 100%; */
+    /* right: 100%; */
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    
+
+}
+ .navbar .navbar-right a{
+color: white;
+text-decoration: none;
+padding: 8px;
+text-transform: uppercase;
+margin: 5px;
+border: 5px;
+}
+.navbar-right a:hover{
+    background-color: floralwhite; 
+    color: black;
+}
+.navbar .navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: right;
+}
+.navbar-right{
+    
+}
+/* ---------------------> End Header Section <------------------------------- */
+
+
+/* ---------------------> Hero Section <------------------------------- */
+#hero{
+    background-image: url('../img/5th.jpg');
+    background-size: cover;
+    background-position: top center;
+     height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 1;
+}
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+    z-index: -1;
+}
+#hero h1{
+    display: block;
+    font-size: 4rem;
+    position: relative;
+    
+}
+.name h1{
+    color: white;
+    align-content: center;
+}
+
+
+/* ---------------------> End Hero Section <------------------------------- */
+
+
+
+/* Education Section */
+/* #education {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+} */
+.head h2{
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 2000;
+    text-align: center;
+    text-transform: uppercase;
+}
+.detail{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    /* flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    padding: 30px; 
+    border: 80px; */
+    /* margin: 55px; */
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+/* End Eduaction Section */
+
+
+/* Project Section */
+.project h2{
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 2000;
+}
+.project-detail{
+    display: flex;
+    flex-direction: column;
+}
+.project-detail p{
+    text-align: center;
+    max-width: 500;
+    letter-spacing: 0.05rem;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+/* End Project Section */
+
+/* ---------------------> About Section <----------------------------------- */
+#about
+{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.me h2{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 2000;
+}
+.me p{
+    font-weight: 300;
+    letter-spacing: .05rem;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+/* ---------------------> End About Section <------------------------------- */
+
+/* --------------------->Conatact Section <------------------------------- */
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contact .contact-items{
+    width: 400px;
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: .3s ease box-shadow;
+}
+#contact .icon{
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#contact .contact-info h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#contact .contact-info h2{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+
+/* --------------------->End Conatact Section <------------------------------- */
+
+
+/*---------------------> footer Section  <------------------------------- */
+   #footer{
+    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+    background-color: blanchedalmond;
+   }
+   #footer .footer{
+    min-height: 200px;
+    /* flex-direction: column; */
+    padding-top: 50px;
+    padding-bottom: 10px;
+   }
+   #footer h1{
+       text-align: center;
+   }
+   #footer h2{
+       text-align: center;
+    color:brown;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   #footer .social-icon{
+        /* align-items: center; */
+        /* justify-content: center; */
+       display: flex;
+       margin-bottom: 10px;
+       justify-content: center;
+   }
+   #footer .social-item{
+       margin: 0 5px;
+       height: 50px;
+       /* width: 50px; */
+   }
+   .social-item:hover {
+       /* background-color: aquamarine; */
+       border: 2px dotted black;
+       border-radius: .4rem;
+   }
+                        /* footer Section  */
