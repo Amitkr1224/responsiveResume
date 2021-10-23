@@ -107,6 +107,7 @@ border: 5px;
     align-content: center;
 
 } */
+
 .head h2{
     padding: 20px;
     font-size: 2rem;
@@ -115,6 +116,7 @@ border: 5px;
     text-transform: uppercase;
 }
 .detail{
+    padding-left: 25%;
     font-size: 1.2rem;
     text-align: center;
     width: 50%;
