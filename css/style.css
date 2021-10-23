@@ -90,6 +90,9 @@ border: 5px;
     position: relative;
     
 }
+.name{
+    padding: 10%;
+}
 .name h1{
     color: white;
     align-content: center;
