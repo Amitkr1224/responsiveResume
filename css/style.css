@@ -10,11 +10,13 @@ html{
 span{
     color: crimson;
     z-index: 1;
+    /* text-transform: uppercase; */
 }
 /* ---------------------> Header Section <----------------------------------- */
 #heading{
     /* display: flex; */
     background-color: rgb(31, 30, 30);
+    /* color: transparent; */
     /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
     opacity: .7;
     z-index: -1;
@@ -63,15 +65,17 @@ border: 5px;
 
 /* ---------------------> Hero Section <------------------------------- */
 #hero{
-    background-image: url('../img/5th.jpg');
+    background-image: url("https://images.unsplash.com/7/Top_view.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1228&q=80");
+    /* background-image: url('../img/4th.jpeg'); */
     background-size: cover;
     background-position: top center;
-     height: 80vh; 
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-content: center;
     position: relative;
     z-index: 1;
+    padding-top: 20px;
 }
 #hero::after{
     content: '';
@@ -192,16 +196,28 @@ border: 5px;
     justify-content: center;
     padding: 20px;
 }
+.icon{
+    align-items: center;
+}
+.contact-item{
+    max-width: 50%;
+}
+/* .contact-item:hover{
+    cursor: pointer;
+    box-shadow: turquoise;
+} */
 .section-title{
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 2000;
+    
 }
 
 .icon{
     /* margin: 5px 0px;  */
     padding-left: 70px;
+    
     /* float:right; */
     /* padding: 10px; */
 }
@@ -217,6 +233,10 @@ border: 5px;
 .contact-info h2{
     font-size: 1rem;
     font-weight: 300;
+}
+.icon{
+    padding-left: 50px;
+    /* margin-left: 50px; */
 }
 
 
@@ -252,6 +272,7 @@ border: 5px;
        display: flex;
        margin-bottom: 10px;
        justify-content: center;
+       padding-top: 20px;
    }
    #footer .social-item{
        margin: 0 5px;
