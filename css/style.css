@@ -249,9 +249,9 @@ border: 5px;
     background-color: blanchedalmond;
    }
    #footer .footer{
-    min-height: 100px;
+    max-height: 100px;
     /* flex-direction: column; */
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
    }
    #footer h1{
